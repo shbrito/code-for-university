@@ -1,0 +1,7 @@
+ days = 5 #days  worked
+
+ value = 50   #Value recib for day worked  
+
+ wage = days* value   
+ 
+ print("Wage: R$", wage) 
