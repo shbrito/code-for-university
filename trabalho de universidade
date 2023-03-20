@@ -1,0 +1,144 @@
+#Opção 02, programa para calcular o salário de uma equipe:
+
+
+
+
+
+
+#Salário total do jogo ganho em casa.
+
+
+gols=int(input("Informe o total de gols que fizeram na partida em casa ?"))  #Entra quantos gols o jogador fez.
+ 
+salario = 50000 +(5000+gols* 0.015) #Soma com a porcentagem de gols em casa.
+print ("Salário total do jogo em casa = R$:",salario ) #Saida do valor  total do jogo ganho em casa.
+
+
+
+
+ 
+#Salário do jogador 01 ganhou em casa.
+
+
+
+
+gols=int(input("Informe o total de gols do jogador Caio:"))  #Entra quantos gols o jogador fez.
+  
+salario_jogador= 50000 +(5000+gols* 0.015) #Soma com a porcentagem de gols em casa.
+print ("Salário do jogador Caio = R$:",salario_jogador) 
+
+
+
+
+#Salário do jogador 02 ganhou em casa.
+
+
+gols=int(input("Informe o total de gols do jogador Fernando:"))  #Entra quantos gols o jogador fez.
+  
+salario_jogador= 50000 +(5000+gols* 0.015) #Soma com a porcentagem de gols em casa.
+print ("Salário do jogador Fernando = R$:",salario_jogador)
+
+
+
+
+
+
+
+
+
+
+#Salário do jogador 03 que ganhou em casa.
+
+
+gols=int(input("Informe o total de gols do jogador Geraldo:"))  #Entra quantos gols o jogador fez.
+  
+salario_jogador= 50000 +(5000+gols* 0.015) #Soma com a porcentagem de gols em casa
+print ("Salário do jogador Geraldo = R$:",salario_jogador)
+
+
+
+
+
+
+#Salário do jogador 04 que jogou fora de casa e ganhou.
+
+
+gols=int(input("Informe o total de gols do jogador Lay:")) #Entra quantos gols o jogador fez.
+  
+salario_jogador= 50000 +(10000+gols* 0.05) #Soma com a porcentagem de gols fora de casa.
+print ("Salário do jogador Lay = R$:",salario_jogador)
+
+
+
+
+#Salario do jogador 05 que perdeu o jogo fora de casa.
+
+
+gols=int(input("Informe o total de gols do jogador José:"))#Entra quantos gols o jogador fez.
+ 
+salario_jogador= 50000 #Não fez gol, não recebeu a porcentagem de gols.
+
+
+print ("Salário do jogador José = R$:",salario_jogador)
+
+
+
+
+
+
+
+
+#Salário do médico da comissão em jogo ganho.  
+
+
+
+
+gols=int(input("Informe o total de gols:")) 
+  
+salario = 200000 +(5000+gols* 0.02) #Soma com a porcentagem de gols em casa.
+print ("Salário do médico da comissão = R$:",salario ) #saida do valor  total do jogo ganho em casa.
+
+
+
+
+
+
+
+
+#Salario do Técnico da comissão em jogo ganho. 
+
+
+gols=int(input("Informe o total de gols:")) 
+  
+salario = 200000 +(5000+gols* 0.02) #Soma com a porcentagem de gols em casa.
+print ("Salário do Técnico da comissão = R$:",salario ) #saida do valor  total do jogo ganho em casa.
+
+
+
+
+
+
+#Salário do Aux Técnico da comissão em jogo ganho. 
+
+
+gols=int(input("Informe o total de gols:")) 
+  
+salario = 200000 +(5000+gols* 0.02) #Soma com a porcentagem de gols em casa.
+print ("Salário do Aux Técnico da comissão = R$:",salario ) #saida do valor  total do jogo ganho em casa.
+
+
+
+
+
+
+
+
+#Salario do Fisioterapeuta da comissão em jogo ganho. 
+
+
+gols=int(input("Informe o total de gols:")) 
+  
+salario = 200000 +(5000+gols* 0.02) #Soma com a porcentagem de gols em casa.
+print ("Salário do  Fisioterapeuta da comissão = R$:",salario ) #saida do valor  total do jogo ganho em casa.
+
+ 
